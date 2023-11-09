@@ -1133,7 +1133,32 @@ gap: 15px;
   width: 100%;
   height: 2px;
 }
-
+@media(max-width:1440px){
+    .container{
+        width: 90%;
+    }
+    #info{
+        margin-top: 20px;
+    }
+    .studio-flex{
+        gap: 600px;
+    }
+    .car-hover img{
+        width: 400px;
+    }
+    #usluga{
+        height: 205vh;
+    }
+    #technology{
+        height: 50%;
+    }
+    .name-city input {
+        width: 46%;
+    }
+    .block-team{
+        gap: 0;
+    }
+}
 @media(max-width:1140px){
     .container{
         width: 90%;
